@@ -83,6 +83,9 @@ img{
     
 }
 
+body a{
+    text-decoration: none;
+}
 .footer{
     position: relative;
     border-bottom-left-radius: 10px;
@@ -114,19 +117,35 @@ img{
     
 }
 
-/* footer .foot ul li{
-    justify-content: space-between;
-    padding: 40px;
-    list-style: none;
-    float: right;
-}
-.socials li a{
-    list-style: none;
-    text-decoration: none;
-    color: white;
+footer {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center the elements */
+    justify-content: space-between; /* Distribute the elements evenly */
+    background-color: black;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .left-footer {
+    margin-right: auto; /* Allow the element to grow to occupy available space */
+  }
+  
+  .middle-footer {
     text-align: center;
-    justify-content: space-between;
-
+    margin-left: 10px;
+    margin-right: auto;
+    padding-left: 30px;
+    
+  }
+  .middle-footer a img{
     display: inline-block;
-    padding: 20px 0px;
-} */
+    
+  }
+  .right-footer{
+    color: white;
+}
+
+.home_icon{
+     filter: invert(1); /*Invert color of icon */
+}
