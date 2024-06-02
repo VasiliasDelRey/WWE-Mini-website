@@ -1,0 +1,105 @@
+header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        background-color: black;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+}
+
+.header h1{
+    color: red;
+}
+.navbar{
+        list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 80px;
+    float: left;
+    
+    align-self: center;
+    cursor: pointer;
+}
+
+.theme{
+    float: right;
+}
+
+body{
+    background-color: black;
+}
+.champ{
+    color: red;
+}
+.RTC{
+    margin-right: 100px;
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+/* .card1 h3{
+    color: white;
+}
+.card2 h3{
+    color: white;
+} */
+
+
+footer {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center the elements */
+  justify-content: space-between; /* Distribute the elements evenly */
+  background-color: black;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.left-footer {
+  margin-right: auto; /* Allow the element to grow to occupy available space */
+  color: red;
+}
+
+p{
+    color: white;
+}
+.middle-footer {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.right-footer p i b{
+    color: red;
+}
+
+body a{
+    text-decoration: none;
+}
+
+.home_icon{
+    filter: invert(1); /*Invert color of icon */
+}
