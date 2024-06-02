@@ -1,0 +1,114 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.header h1{
+    color: gold;
+}
+.navbar{
+        list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.content P a{
+    text-decoration: none;
+}
+.image1{
+    text-align: center;
+}
+.navbar ul li a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: 'Poppins', sans-serif;
+    color: gold;
+}
+.logo{
+    width: 80px;
+    float: left;
+    
+    align-self: center;
+    cursor: pointer;
+}
+.theme{
+    float: right;
+}
+.home_icon{
+    filter: invert(1); /*Invert color of icon */
+}
+
+.card1{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.card1 h3{
+    color: gold;
+}
+
+.card2 h3{
+    color: gold;
+}
+
+header h1{
+    color: gold;
+}
+
+footer {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center the elements */
+    justify-content: space-between; /* Distribute the elements evenly */
+    background-color: black;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .left-footer {
+    margin-right: auto; /* Allow the element to grow to occupy available space */
+    color: gold;
+  }
+  
+  .middle-footer {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: auto;
+    padding: 20px;
+  }
+  
+  .right-footer{
+      color: gold;
+  }
+  
+  .middle-footer:hover{
+    animation: throb 1s infinite;
+  }
+
+  @keyframes throb {
+    0% {
+       transform: scale(1) /*rotate(0deg)*/; 
+    }
+    50% {
+      transform: scale(1.2) /*rotate(-5deg)*/;
+    }
+    100% {
+      transform: scale(1) /*rotate(0deg)*/;
+    }
+  }
